@@ -9,4 +9,5 @@ RUN apk add py-pip curl && \
  mv ./kubectl /usr/bin/kubectl 
 
 COPY entrypoint.sh /entrypoint.sh
+RUN ["chmod", "+x", "/entrypoint.sh"]
 ENTRYPOINT ["/entrypoint.sh"]
