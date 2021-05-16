@@ -1,0 +1,6 @@
+name: kubectl-aws-eks
+description: "Kubectl for Github Actions."
+author: 'Sandeep'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
