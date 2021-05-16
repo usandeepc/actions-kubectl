@@ -1,4 +1,4 @@
-name: kubectl-aws-eks
+name: actions-kubectl 
 description: "Kubectl for Github Actions."
 author: 'Sandeep'
 runs:
