@@ -2,7 +2,7 @@ FROM alpine:latest
 
 RUN apk add py-pip curl && \
  pip install awscli && \
- curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.20.3/bin/linux/amd64/kubectl && \
+ curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.23.0/bin/linux/amd64/kubectl && \
  curl -o /usr/local/bin/aws-iam-authenticator https://amazon-eks.s3.us-west-2.amazonaws.com/1.17.7/2020-07-08/bin/linux/amd64/aws-iam-authenticator && \
  chmod +x /usr/local/bin/aws-iam-authenticator && \
  chmod +x ./kubectl && \
